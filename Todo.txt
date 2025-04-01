@@ -1,0 +1,4 @@
+To DO:
+- [ ] Make the footer
+- [ ] Make the search bar
+- [ ] Optimize referencement
