@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <title>Avis | Gaël el Builder</title>
+
+     <style>
+          .checked {
+               color: rgb(219, 185, 121);
+          }
+     </style>
+</head>
+<body>
+     <!--Insert Header and search bar-->
+     <h2>Les Avis</h2>
+     <h1>Laissé par mes clients</h1>
+
+     <a href=".../services.html">Voir les services</a>
+
+     <section class="avis">
+          <div class="avistemplate">
+               <img src="..." alt="imgavis1">
+               <p>Titre avis</p>
+
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+
+               <p>Service commandé : service</p>
+          </div>
+     </section>
+
+     <section class="laisseravis">
+          <h1>Vous souhaitez laisser un avis?</h1>
+          <p>
+               Vous avez apprécié (...ou pas!) mes services et vous 
+               souhaitez le faire savoir? N'hésitez pas ! Remplissez le 
+               formulaire ci-dessous et votre avis, qu'importe soit-il
+               sera publié sur le site sous quelques jours!
+               Les futurs clients vous remercient !
+          </p>
+
+          <form action="" method="post" class=formavismain>
+               <label for="name">Nom ou pseudo:</label>
+               <input type="text" id="name" name="name" required>
+               
+               <label for="stars">Note /5</label>
+               <input type="range" id="stars" name="stars" min="1" max="5" required>
+               
+               <label for="subject">Service commandé:</label>
+               <input type="text" id="subject" name="subject" required>
+               
+               <label for="message">Message:</label>
+               <textarea id="message" name="message" rows="4" required></textarea>
+               
+               <input type="submit" name="submit" id="submit" value="Laisser un avis!">
+          </form>
+     </section>
+
+     <!--Insert footer-->
+</body>
+</html>

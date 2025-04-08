@@ -3,9 +3,48 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>Contact | Gaël</title>
 </head>
 <body>
+     <header>Contactez-Moi</header>
+     <p>Pour tout ce qui concerne mes services, des détails ou 
+          des informations, n'hésitez pas à me contacter via ce 
+          formulaire, j'essayerais de vous répondre le plus 
+          vite possible !
+     </p>
+
+     <h3>Plus d'infos sur moi:</h3>
+     <p>
+          étudiant à Toulouse en anglais, passionné par l'informatique
+          depuis tout petit, je propose de venir chez vous 
+          sur Toulouse et ses alentours pour vous aider à 
+          monter votre PC. Vous pouvez également venir dans mon atelier
+          (mon appart étudiant) pour les memes services voir meme pour 
+          discuter de vos projets, etc.
+          Je propose également des services assez divers (Voir la page 
+          des services secrets...).
+     </p>
      
+     <form action="" method="post" class="formcontactmain">
+          <label for="name">Nom:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Numéro de téléphone:</label>
+          <input type="text" id="phone" name="phone">
+
+          <label for="subject">Sujet</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+     
+          <input type="submit" name="submit" id="submit" value="Envoyer">
+     </form>
+
+
+     <!--Insert footer-->
 </body>
 </html>
